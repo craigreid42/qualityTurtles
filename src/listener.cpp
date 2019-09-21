@@ -4,7 +4,7 @@
 
 void callback(const turtles::TurtleQuality& msg)
 {
-	ROS_INFO("%lu, %u", msg.index, msg.quality);
+	ROS_INFO("Turtle %lu has a quality of  %u!", msg.index, msg.quality);
 }
 
 int main(int argc, char **argv)
